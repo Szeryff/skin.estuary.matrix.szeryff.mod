@@ -33,7 +33,7 @@
 		<control type="group">
 			<animation effect="fade" start="100" end="0" time="200" tween="sine" condition="$EXP[infodialog_active]">Conditional</animation>
 			<control type="group" id="2000">
-				<left>462</left>
+				<left>120</left>
 				<animation type="Conditional" condition="Control.IsVisible(20000)" reversible="false">
 					<effect type="slide" end="0,20" time="60" tween="sine" />
 					<effect type="slide" end="0,-20" time="180" tween="sine" delay="80" />
@@ -130,7 +130,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="5500"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="5010"/>
@@ -213,7 +213,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="6400"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="6010"/>
@@ -305,7 +305,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(music,files)"/>
 						<param name="button_id" value="7600"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="7010"/>
@@ -392,7 +392,7 @@
 						<param name="button_onclick" value="ActivateWindow(addonbrowser)"/>
 						<param name="button_id" value="8800"/>
 						<param name="visible" value="[Integer.IsEqual(Container(8001).NumItems,0) | [Integer.IsEqual(Container(8001).NumItems,1) + !String.IsEqual(Skin.String(addon_categories),2)]] + ![Skin.HasSetting(addonslot1_show_none) | Skin.HasSetting(addonslot2_show_none) | Skin.HasSetting(addonslot3_show_none) | Skin.HasSetting(addonslot4_show_none) | Skin.HasSetting(addonslot5_show_none) | Skin.HasSetting(addonslot6_show_none)]"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="8010"/>
@@ -440,7 +440,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,root)"/>
 						<param name="button_id" value="11300"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="11010"/>
@@ -511,7 +511,7 @@
 						<param name="button_label" value="$LOCALIZE[31144]" />
 						<param name="button_onclick" value="ActivateWindow(addonbrowser,addons://all/kodi.pvrclient,return)"/>
 						<param name="button_id" value="12400"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="12010"/>
@@ -581,7 +581,7 @@
 						<param name="button_label" value="$LOCALIZE[31144]" />
 						<param name="button_onclick" value="ActivateWindow(addonbrowser,addons://all/kodi.pvrclient,return)"/>
 						<param name="button_id" value="13400"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="13010"/>
@@ -636,7 +636,7 @@
 						<param name="button_id" value="5500"/>
 						<param name="visible" value="!Integer.IsGreater(Container(14100).NumItems,0) + !Container(14100).IsUpdating"/>
 						<param name="visible_1" value="false"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="14010"/>
@@ -744,7 +744,7 @@
 						<param name="button_label" value="$LOCALIZE[31121]" />
 						<param name="button_onclick" value="ActivateWindow(servicesettings,weather)"/>
 						<param name="button_id" value="15300"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="15010"/>
@@ -816,7 +816,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="16800"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="16010"/>
@@ -868,7 +868,7 @@
 						<param name="button_onclick" value="ActivateWindow(addonbrowser,addons://all/category.gameaddons,return)"/>
 						<param name="button_id" value="17100"/>
 						<param name="visible" value="!Integer.IsGreater(Container(17001).NumItems,0) + !Skin.HasSetting(no_games)"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="17010"/>
@@ -897,12 +897,12 @@
 				<depth>DepthContentPanel</depth>
 				<include>OpenClose_Left</include>
 				<include content="ContentPanel">
-					<param name="width" value="522" />
+					<param name="width" value="160" />
 				</include>
 				<control type="fixedlist" id="9000">
 					<left>0</left>
 					<top>240</top>
-					<width>462</width>
+					<width>95</width>
 					<bottom>-10</bottom>
 					<movement>7</movement>
 					<focusposition>0</focusposition>
@@ -917,7 +917,7 @@
 							<control type="image">
 								<left>0</left>
 								<top>0</top>
-								<width>462</width>
+								<width>95</width>
 								<height>95</height>
 								<texture colordiffuse="button_focus">lists/focus.png</texture>
 								<animation effect="fade" start="100" end="0" time="0" condition="[!Control.HasFocus(9000) + !ControlGroup(700).HasFocus] | System.HasActiveModalDialog">Conditional</animation>
@@ -940,40 +940,20 @@
 							</control>
 						</control>
 						<control type="image">
-							<left>-3</left>
+							<left>5</left>
 							<top>1</top>
 							<width>95</width>
 							<height>95</height>
 							<texture>$INFO[ListItem.Art(thumb)]</texture>
 						</control>
-						<control type="label">
-							<left>104</left>
-							<top>0</top>
-							<height>95</height>
-							<width>560</width>
-							<aligny>center</aligny>
-							<font>font37</font>
-							<label>$INFO[ListItem.Label]</label>
-							<shadowcolor>text_shadow</shadowcolor>
-						</control>
 					</focusedlayout>
 					<itemlayout height="95">
 						<control type="image">
-							<left>-3</left>
+							<left>5</left>
 							<top>1</top>
 							<width>95</width>
 							<height>95</height>
 							<texture colordiffuse="44FFFFFF">$INFO[ListItem.Art(thumb)]</texture>
-						</control>
-						<control type="label">
-							<left>104</left>
-							<top>0</top>
-							<height>95</height>
-							<width>560</width>
-							<aligny>center</aligny>
-							<font>font37</font>
-							<label>$INFO[ListItem.Label]</label>
-							<shadowcolor>text_shadow</shadowcolor>
 						</control>
 					</itemlayout>
 					<content>
@@ -1153,36 +1133,48 @@
 							<property name="id">disc</property>
 							<visible>System.HasMediaDVD</visible>
 						</item>
-				</content>
+					</content>
 				</control>
 				<control type="grouplist" id="700">
 					<orientation>horizontal</orientation>
-					<itemgap>0</itemgap>
-					<left>-8</left>
-					<width>480</width>
+					<!-- <itemgap>0</itemgap> -->
+					<left>-5</left>
+					<width>120</width>
 					<height>110</height>
 					<top>100</top>
 					<onup>SetFocus(9000,99,absolute)</onup>
 					<ondown>SetFocus(9000,0,absolute)</ondown>
 					<onright>2000</onright>
-					<align>justify</align>
+					<!-- <align>justify</align> -->
 					<include content="IconButton">
 						<param name="control_id" value="804" />
 						<param name="onclick" value="ActivateWindow(shutdownmenu)" />
 						<param name="icon" value="icons/power.png" />
 						<param name="label" value="$LOCALIZE[33060]" />
+						<param name="height" value="120" />
+						<param name="width" value="120" />
+						<param name="texturefocus" value="" />
+						<param name="radioposx" value="28" />
 					</include>
 					<include content="IconButton">
 						<param name="control_id" value="802" />
 						<param name="onclick" value="ActivateWindow(settings)" />
 						<param name="icon" value="icons/settings.png" />
 						<param name="label" value="$LOCALIZE[21417]" />
+						<param name="height" value="120" />
+						<param name="width" value="120" />
+						<param name="texturefocus" value="" />
+						<param name="radioposx" value="28" />
 					</include>
 					<include content="IconButton">
 						<param name="control_id" value="801" />
 						<param name="onclick" value="ActivateWindow(1107)" />
 						<param name="icon" value="icons/search.png" />
 						<param name="label" value="$LOCALIZE[137]" />
+						<param name="height" value="120" />
+						<param name="width" value="120" />
+						<param name="texturefocus" value="" />
+						<param name="radioposx" value="28" />
 					</include>
 					<include content="IconButton">
 						<param name="control_id" value="803" />
@@ -1190,6 +1182,10 @@
 						<param name="icon" value="icons/now-playing/fullscreen.png" />
 						<param name="label" value="$LOCALIZE[31000]" />
 						<param name="visible" value="Player.HasMedia" />
+						<param name="height" value="120" />
+						<param name="width" value="120" />
+						<param name="texturefocus" value="" />
+						<param name="radioposx" value="28" />
 					</include>
 				</control>
 			</control>
