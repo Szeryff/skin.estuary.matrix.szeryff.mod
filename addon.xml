@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="skin.estuary.matrix.szeryff.mod" name="Estuary Matrix Mod (Szeryff)" version="1.0.6" provider-name="Szeryff">
+<addon id="skin.estuary.matrix.szeryff.mod" name="Estuary Matrix Mod (Szeryff)" version="1.0.7" provider-name="Szeryff">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
