@@ -175,6 +175,28 @@
 						<onclick>ActivateWindow(videoplaylist)</onclick>
 						<visible>Integer.IsGreater(Playlist.Length(video),1)</visible>
 					</control>
+					<control type="radiobutton" id="704">
+						<include content="OSDButton">
+							<param name="texture" value="osd/fullscreen/buttons/settings-subtitle.png"/>
+						</include>
+						<onclick>NextSubtitle</onclick>
+						<visible>VideoPlayer.HasSubtitles</visible>
+					</control>
+					<control type="radiobutton" id="66704">
+						<include content="OSDButton">
+							<param name="texture" value="osd/fullscreen/buttons/downloads.png"/>
+						</include>
+						<label>Pobierz napisy</label>
+						<onclick>Action(Close)</onclick>
+						<onclick>ActivateWindow(SubtitleSearch)</onclick>
+					</control>
+					<control type="radiobutton" id="66705">
+						<include content="OSDButton">
+							<param name="texture" value="osd/fullscreen/buttons/clock.png"/>
+						</include>
+						<onclick>Action(SubtitleDelay)</onclick>
+						<visible>VideoPlayer.HasSubtitles</visible>
+					</control>
 					<control type="radiobutton" id="70043">
 						<include content="OSDButton">
 							<param name="texture" value="osd/fullscreen/buttons/information.png"/>
@@ -195,13 +217,6 @@
 						<onclick>Dialog.Close(VideoOSD)</onclick>
 						<onclick>ActivateWindow(Teletext)</onclick>
 						<visible>VideoPlayer.HasTeletext</visible>
-					</control>
-					<control type="radiobutton" id="70046">
-						<include content="OSDButton">
-							<param name="texture" value="osd/fullscreen/buttons/settings-subtitle.png"/>
-						</include>
-						<onclick>ActivateWindow(osdsubtitlesettings)</onclick>
-						<visible>!VideoPlayer.Content(LiveTV) | VideoPlayer.HasSubtitles</visible>
 					</control>
 					<control type="radiobutton" id="70047">
 						<include content="OSDButton">
