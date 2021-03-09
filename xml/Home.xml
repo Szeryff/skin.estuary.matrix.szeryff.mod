@@ -130,7 +130,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="5500"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="5010"/>
@@ -213,7 +213,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="6400"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="6010"/>
@@ -305,7 +305,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(music,files)"/>
 						<param name="button_id" value="7600"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="7010"/>
@@ -392,7 +392,7 @@
 						<param name="button_onclick" value="ActivateWindow(addonbrowser)"/>
 						<param name="button_id" value="8800"/>
 						<param name="visible" value="[Integer.IsEqual(Container(8001).NumItems,0) | [Integer.IsEqual(Container(8001).NumItems,1) + !String.IsEqual(Skin.String(addon_categories),2)]] + ![Skin.HasSetting(addonslot1_show_none) | Skin.HasSetting(addonslot2_show_none) | Skin.HasSetting(addonslot3_show_none) | Skin.HasSetting(addonslot4_show_none) | Skin.HasSetting(addonslot5_show_none) | Skin.HasSetting(addonslot6_show_none)]"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="8010"/>
@@ -440,7 +440,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,root)"/>
 						<param name="button_id" value="11300"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="11010"/>
@@ -511,7 +511,7 @@
 						<param name="button_label" value="$LOCALIZE[31144]" />
 						<param name="button_onclick" value="ActivateWindow(addonbrowser,addons://all/kodi.pvrclient,return)"/>
 						<param name="button_id" value="12400"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="12010"/>
@@ -581,7 +581,7 @@
 						<param name="button_label" value="$LOCALIZE[31144]" />
 						<param name="button_onclick" value="ActivateWindow(addonbrowser,addons://all/kodi.pvrclient,return)"/>
 						<param name="button_id" value="13400"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="13010"/>
@@ -636,7 +636,7 @@
 						<param name="button_id" value="5500"/>
 						<param name="visible" value="!Integer.IsGreater(Container(14100).NumItems,0) + !Container(14100).IsUpdating"/>
 						<param name="visible_1" value="false"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="14010"/>
@@ -744,7 +744,7 @@
 						<param name="button_label" value="$LOCALIZE[31121]" />
 						<param name="button_onclick" value="ActivateWindow(servicesettings,weather)"/>
 						<param name="button_id" value="15300"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="15010"/>
@@ -816,7 +816,7 @@
 						<param name="button_label" value="$LOCALIZE[31110]" />
 						<param name="button_onclick" value="ActivateWindow(videos,files,return)"/>
 						<param name="button_id" value="16800"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="16010"/>
@@ -868,7 +868,7 @@
 						<param name="button_onclick" value="ActivateWindow(addonbrowser,addons://all/category.gameaddons,return)"/>
 						<param name="button_id" value="17100"/>
 						<param name="visible" value="!Integer.IsGreater(Container(17001).NumItems,0) + !Skin.HasSetting(no_games)"/>
-						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/>
+						<param name="button2_onclick" value="ActivateWindow(skinsettings)"/> 
 					</include>
 					<include content="WidgetScrollbar" condition="Skin.HasSetting(touchmode)">
 						<param name="scrollbar_id" value="17010"/>
@@ -1133,7 +1133,7 @@
 							<property name="id">disc</property>
 							<visible>System.HasMediaDVD</visible>
 						</item>
-					</content>
+				</content>
 				</control>
 				<control type="grouplist" id="700">
 					<orientation>horizontal</orientation>

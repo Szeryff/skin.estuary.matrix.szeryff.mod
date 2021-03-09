@@ -45,7 +45,7 @@
 					</control>
 					<control type="textbox">
 						<left>30</left>
-						<top>200</top>
+						<top>220</top>
 						<width>525</width>
 						<bottom>100</bottom>
 						<visible>![ListItem.IsCollection + String.IsEmpty(ListItem.Plot)]</visible>
