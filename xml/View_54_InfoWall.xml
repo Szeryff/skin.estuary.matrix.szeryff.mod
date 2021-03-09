@@ -179,10 +179,10 @@
 				<texture>$VAR[WallWatchedIconVar]</texture>
 			</control>
 			<control type="image">
-				<left>35</left>
-				<top>10</top>
-				<width>250</width>
-				<height>360</height>
+				<left>20</left>
+				<top>30</top>
+				<width>276</width>
+				<height>250</height>
 				<texture background="true" colordiffuse="CC000000" fallback="colors/grey.png">colors/grey.png</texture>
 				<visible>Integer.IsGreater(ListItem.Playcount,0) + !$PARAM[focused]</visible>
 			</control>
